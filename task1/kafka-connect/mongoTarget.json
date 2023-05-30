@@ -1,0 +1,10 @@
+{
+  "name": "mongo target",
+  "config": {
+    "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
+    "database": "test",
+    "topics": "move",
+    "connection.uri": "mongodb://root:root@mongo-target:27017/",
+    "collection": "users"
+}
+}
